@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.name {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 15px;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.name-bold {
+    font-weight: 700;
+    letter-spacing: 0.5em;
+}
+
+.name-light {
+    font-weight: 300;
+    letter-spacing: 0.5em;
+}
+
+.title {
+    font-size: 1.1rem;
+    color: #333;
+    padding: 10px 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin: 20px 0;
+}
+
+.main-grid {
+    display: grid;
+    grid-template-columns: 1fr 2px 2fr;
+    gap: 40px;
+    position: relative;
+}
+
+.divider {
+    width: 2px;
+    background-color: #ddd;
+    height: 100%;
+}
+
+h2 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.contact a {
+    /* display: inline; */
+    color: blue;
+    text-decoration: none;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.education .major {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.education .school {
+    margin-bottom: 5px;
+}
+
+.education .year {
+    color: #666;
+}
+
+.job {
+    margin-bottom: 25px;
+}
+
+.job-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.job-details {
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.accomplishments {
+    list-style-position: inside;
+    padding-left: 20px;
+}
+
+.accomplishments li {
+    margin-bottom: 5px;
+}
